@@ -1,7 +1,8 @@
 {
-  "name": "b64toString",
-  "displayName": "base64-to-string",
-  "description": "Converts base64 to an ascii string",
+  "name": "b64toJSON",
+  "displayName": "base64-to-JSON",
+  "publisher": "lukehendrick",
+  "description": "Converts base64 to an ascii JSON",
   "version": "0.0.2",
   "engines": {
     "vscode": "^1.30.0"
@@ -10,18 +11,18 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.b64toString",
-    "onCommand:extension.stringtoB64"
+    "onCommand:extension.b64toJSON",
+    "onCommand:extension.JSONtoB64"
   ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.b64toString",
+        "command": "extension.b64toJSON",
         "title": "Base64 Decode"
       },
       {
-        "command": "extension.stringtoB64",
+        "command": "extension.JSONtoB64",
         "title": "Base64 Encode"
       }
     ]
