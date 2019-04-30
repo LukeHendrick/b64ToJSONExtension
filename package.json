@@ -2,7 +2,7 @@
   "name": "b64toJSON",
   "displayName": "base64-to-JSON",
   "publisher": "lukehendrick",
-  "description": "Converts base64 to an ascii JSON",
+  "description": "Converts base64 to JSON",
   "version": "0.0.6",
   "engines": {
     "vscode": "^1.30.0"
