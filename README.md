@@ -1,4 +1,4 @@
-# b64toString
+# b64toJSON
 
 ## Features
 
