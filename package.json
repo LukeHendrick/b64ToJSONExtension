@@ -3,7 +3,7 @@
   "displayName": "base64-to-JSON",
   "publisher": "lukehendrick",
   "description": "Converts base64 to an ascii JSON",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.30.0"
   },
